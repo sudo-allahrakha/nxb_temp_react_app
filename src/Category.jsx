@@ -14,7 +14,7 @@ export default function Category() {
     // data validation in react i.e. Formik , yup , ReactHook form
     // UI library for alter , popup etc
     try {
-      const response = await fetch("https://fakestoreapi-production-80ed.up.railway.app/categories",{
+      const response = await fetch("https://fakestoreapi.up.railway.app/categories",{
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",

@@ -33,7 +33,7 @@ function App() {
 
     setLoading(true);
     // http://127.0.0.1:5000/categories
-    let request = await fetch("https://fakestoreapi-production-80ed.up.railway.app/categories");
+    let request = await fetch("https://fakestoreapi.up.railway.app/categories");
     let tempCategories = await request.json();
     setCategories(tempCategories);
     setLoading(false);
